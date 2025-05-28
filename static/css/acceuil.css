@@ -1,0 +1,65 @@
+
+body{
+    height: 100%; 
+}
+
+
+main{
+    color: rgb(94, 93, 93);
+    display: flex;
+}
+
+
+
+main > :last-child{
+    width: 50%;
+}
+
+main img{
+    width: 100%;
+}
+
+main > :first-child {
+    margin-top: 2%;
+    width: 40%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+main > :first-child > :first-child{
+    margin-top: 15%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main ,h1{
+    margin: 0;
+}
+
+main h1{
+    font-weight: 1500;
+    font-size: 250%;
+}
+
+h4{
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+
+#triangle{
+    border-bottom : 300px solid rgb(88, 86, 86);
+    border-left : 2200px solid transparent;
+    position: absolute;
+}
+
+footer{
+    position: fixed;
+    bottom: 300px;
+}
