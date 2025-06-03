@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duponchel Noah</title>
+    <link rel="stylesheet" href=" static/css/commun.css">
+    <link rel="stylesheet" href=" static/css/projet.css">
+    <link rel="stylesheet" href=" static/css/communeProjet.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section>
+                <h2>DUPONCHEL Noah</h2>
+                <aside>
+                    <p id="contexte">étudiant</p>
+                    <p id="ou">BUT informatique</p>
+                </aside>
+            </section>
+            <section>
+                <a href="index.html">Qui suis-je ?</a>
+                <a href="projet.html">Projets</a>
+                <a href="competence.html">Compétences</a>
+                <a href="contact.html">Contact</a>
+            </section>
+        </nav>
+    </header>
+    <main>
+
+        <details>
+
+            <summary>
+                <img src=" static/img/projet/bdd.jpg" alt="photo projet 1">
+                <aside>
+                    <h2>Création et gestion d’une base de données</h2>
+                    <p>2025</p>
+                </aside>
+            </summary>
+
+            <section class="content" id="bdd">
+                <h3>Création d’une base de données</h3>
+                <p>Notre objectif dans ce projet était de créer une base de données pour un club de bowling.
+                    Nous devions créer toutes les tables et relations permettant une gestion des réservations dans le
+                    club de bowling.</p>
+                <h4>Ce travail c'est effectué en tois étape différente expliqué ci-dessous</h4>
+                <aside>
+                    <p>
+                        « Schéma relationnel / Script de création de la base de données / Test du script ».
+                        Dans la première étape nous devions créer le schéma de la base puis créer cette base
+                        et faire quelques requêtes dessus pour vérifier que tout fonctionne.
+                    </p>
+                    <p> « Peuplement et interrogation de la BD ». En seconde partie, nous disposions de la base corrigée
+                        et devions la « peupler »,
+                        c’est-à-dire ajouter des réservations dans la base.
+                        Ensuite nous devions répondre à des demandes grâce des requêtes.</p>
+                    <p> « Prise en compte de nouveaux besoins ». Pour finir, nous devions modifier la base de données
+                        pour respecter de nouvelles contraintes données,
+                        puis créer un compte rendu expliquant toutes les étapes réalisées dans ce projet et comment nous
+                        y sommes pris.
+                    </p>
+                </aside>
+                <h4>Ce que j'ai fais dans ce travail</h4>
+                <aside>
+                    <p>Nous nous sommes divisé le travail en 2, de manière à ce que chacun des membres ai toujours une
+                        tâche à réaliser.
+                        Pour chaque partie nous avons chacun fait une moitié des requêtes, et quand l’un des 2 était
+                        bloqué, l’autre l’aidait.
+                    </p>
+                </aside>
+                <h4 id="comp">Mes compétences acquise</h4>
+                <aside>
+                    <ul>
+                        <li>Gérer des données de l’information </li>
+                        <li>Travailler dans une équipe informatique</li>
+                    </ul>
+                </aside>
+                <h4 id="comp">Mes compétences technique</h4>
+                <aside>
+                    <ul>
+                        <li>Utiliser le language SQL </li>
+                        <li>Utiliser le language SLR</li>
+                    </ul>
+                </aside>
+            </section>
+            <section><button class="close-btn" onclick="this.closest('details').removeAttribute('open')">
+                    Fermer
+                </button></section>
+
+        </details>
+
+        <details>
+
+            <summary>
+                <img src=" static/img/projet/java.jpg" alt="photo projet 2">
+                <aside>
+                    <h2>Implémentation d’un besoin client / Comparaison d'approches algorithmiques</h2>
+                    <p>2025</p>
+                </aside>
+            </summary>
+
+            <section class="content" id="java">
+                <h3>Création d’un système de classification de dépêches</h3>
+                <p>Ce projet mène à des classifications de dépêches.
+                    Une dépêche c’est : un numéro, une date, une catégorie et un texte</p>
+                <img src=" static/img/projet/exemple.png" alt="images de depeches">
+                <h4>Ce travail c'est effectué en tois étape différente expliqué ci-dessous</h4>
+                <aside>
+                    <p>
+                        Pour chaque catégorie, nous avons créer un lexique manuellement avec des mots pour une catégorie
+                        avec une pondération allant de 1 à 3
+                        (1 = mot peu fréquent, 3 = mot très fréquent).
+                        Puis créer un programme qui donne une catégorie aux dépêches selon les mots contenus dans les
+                        textes par
+                        rapport aux lexiques créés sur un fichier fourni.
+                    </p>
+                    <p> Nous avons créer une génération automatique du lexique par rapport à des catégories connues.
+                        Cette classification ce fait en fonction du nombre de fois
+                        ou apparaît le mot dans cette même catégorie comparée au nombre de fois que il appairaît dans
+                        les autres dépêches de catégorie différente
+                        . Ensuite nous avons pus classer les dépêches sur un fichier fourni.</p>
+                    <p> Nous avons créer une génération automatique du lexique mais nous ne connaissons ni le nombre,
+                        ni le nom des dépêches sur un fichier fourni. Pour ceci nous avons donc dus d'abord récolter
+                        tous les thème des dépêches dans une liste,
+                        pour poursuivre nous avons due parcourir la liste et y créer les lexique et enfin faire le
+                        classement générale des depêches.
+                    </p>
+                </aside>
+                <h4>Ce que j'ai fais dans ce travail</h4>
+                <aside>
+                    <p>Ce projet a été fait en binôme et tout le travail a été fait ensemble sur le même ordinateur.
+                        Nous avons créé plusieurs fonctions pour répondre à des besoins.
+                        Un classement des dépêches, un calcul des scores,
+                        la génération automatique des lexiques, un système de tri pour trier les lexiques…
+                    </p>
+                </aside>
+                <h4 id="comp">Mes compétences acquise</h4>
+                <aside>
+                    <ul>
+                        <li>Réaliser un développement d’application </li>
+                        <li>Optimiser des applications informatiques </li>
+                        <li>Travailler dans une équipe informatique</li>
+                    </ul>
+                </aside>
+                <h4 id="comp">Mes compétences technique</h4>
+                <aside>
+                    <ul>
+                        <li>Utiliser le language Java </li>
+                        <li>Séparer les différentes fonctions d'un programme</li>
+                    </ul>
+                </aside>
+            </section>
+            <section><button class="close-btn" onclick="this.closest('details').removeAttribute('open')">
+                    Fermer
+                </button></section>
+        </details>
+
+
+        <details>
+
+            <summary>
+                <img src=" static/img/projet/Recueil.jpg" alt="photo projet 3">
+                <aside>
+                    <h2>Recueil de besoins</h2>
+                    <p>2024</p>
+                </aside>
+            </summary>
+
+            <section class="content" id="recueil">
+                <h3>Recueil de besoin </h3>
+                <p>Ce projet mène à réunir des informations sur une entreprises dans un fichier word afin qu'un élève de
+                    3ème puisse comprendre.
+                    <br> Voici une partie du sommaire pour ce projet.
+                </p>
+
+                <h4>Ce que nous avons fait dans ce travail</h4>
+                <aside>
+                    <p>
+                        Nous avons créé un document Word commun avec un style commun. Nous devions présenter le contexte
+                        de l'entreprise puis sa transition écologique et économique.
+                        Nous avons répartie le travail dans notre groupe de 4.
+                        Les élèves les plus à l'aise avec Word ont récupéré toutes les données afin de les rassembler et
+                        faire la mise en forme finale du recueil.
+                    </p>
+                </aside>
+
+                <h4>Ce que j'ai fais dans ce travail</h4>
+                <aside>
+                    <p>Ce projet a été fait en quatuore. <br>
+                        Je me suis occupé des parties sur l'organisations de l'entreprises, sur ses conccurents et ses
+                        clients.
+                    </p>
+                </aside>
+
+                <h4 id="comp">Mes compétences acquise</h4>
+                <aside>
+                    <ul>
+                        <li>Conduire un projet</li>
+                        <li>Travailler dans une équipe informatique</li>
+                    </ul>
+                </aside>
+
+                <h4 id="comp">Mes compétences technique</h4>
+                <aside>
+                    <ul>
+                        <li>Utiliser est Word</li>
+                        <li>Rechercher des informations sur internet</li>
+                    </ul>
+                </aside>
+
+            </section>
+            <section><button class="close-btn" onclick="this.closest('details').removeAttribute('open')">
+                    Fermer
+                </button></section>
+        </details>
+
+        <details>
+
+            <summary>
+                <img src=" static/img/projet/site.png" alt="photo projet 5">
+                <aside>
+                    <h2> Découverte de l’environnement économique et écologique</h2>
+                    <p>2024</p>
+                </aside>
+            </summary>
+
+            <section class="content" id="site">
+                <h3>Création d'un site web sur une entreprise </h3>
+                <p>A la suite du projet <a href="#recueil">'Recueil de besoins'</a>, nous avons du créer un site web qui à pour but de transmettre les informations déjà récoltés. </p>
+                <h4>Ce travail c'est effectué en 2 étape</h4>
+                <aside>
+                    <p>
+                        Suite au projet <a href="#recueil">'Recueil de besoins'</a>, nous avons créé une maquette du site pour avoir 
+                        « l’apparence » d'un site web ayant pour but de partager les informations récolter.
+                    </p>
+                    <p>
+                        Ensuite nous avons bien sûr continuer par codé le site web, nous avons codé le site page par page, 
+                        avec un style css commun mais aussi 1 par page. 
+                    </p>
+                </aside>
+
+                <h4>Ce que j'ai fais dans ce travail</h4>
+                <aside>
+                    <p>Ce projet a été fait en quatuore. <br>
+                        Je me suis occupé de faire une très grosse partie du css. J'ai aussi contribuer à faire quleques pages en html.
+                    </p>
+                </aside>
+
+                <h4 id="comp">Mes compétences acquise</h4>
+                <aside>
+                    <ul>
+                        <li>Conduire un projet</li>
+                        <li>Travailler dans une équipe informatique</li>
+                    </ul>
+                </aside>
+
+                <h4 id="comp">Mes compétences technique</h4>
+                <aside>
+                    <ul>
+                        <li>Utiliser Visual studio code</li>
+                        <li>Utiliser du html et css</li>
+                    </ul>
+                </aside>
+
+            </section>
+            <section><button class="close-btn" onclick="this.closest('details').removeAttribute('open')">
+                    Fermer
+                </button></section>
+        </details>
+
+
+        <details>
+
+            <summary>
+                <img src=" static/img/projet/debian12.jpg" alt="photo projet 4">
+                <aside>
+                    <h2>Installation d'un poste pour le développement</h2>
+                    <p>2024</p>
+                </aside>
+            </summary>
+
+            <section class="content" id="PosteDev">
+                <h3>Installation d’un poste pour le développement et création d'un shéma explicatif</h3>
+                <p>Ce projet avait pour objectif de nous apprendre à installer une machine virtuelle sur notre post
+                    informatique.
+                    A la fin de cette installation, nous devions réaliser un schéma expliquant les étapes de
+                    l’installation de la machine virtuelle.</p>
+
+                <img src=" static/img/projet/carte-mentale.png" alt="">
+                <h4>Ce travail c'est effectué en deux étapes différentes expliqué ci-dessous</h4>
+                <aside>
+                    <p>
+                        Nous avons commencé par installer une machine virtuelle. Nous l'avons installer et fait les
+                        paramêtres un par un afin de la configurer correctement.
+                        Ensuite nous avons avons installer les applications necessaire afin de pouvoir correctement
+                        travailler dessus par la suite.
+                    </p>
+                    <p>Nous avons continuer par faire un shema explicatif.
+                        Il a pour but d'apprendre aux autres personnes comment installer et configurer correctement une
+                        machine virtuelle.
+                        Pour ceci nous avons suivi les différentes étapes que nous avions fait pour installer la machine
+                        virtuelle sur notre ordinateur.</p>
+
+                </aside>
+                <h4>Ce que j'ai fais dans ce travail</h4>
+                <aside>
+                    <p>Ce projet étant individuel, j’ai donc suivi les instructions données pour installer une machine
+                        virtuelle sur mon post Linux.
+                        Enfin j’ai fait le schéma expliquant les étapes clés pour installer cette machine, ayant pour
+                        objectif
+                        d’être suffisamment compréhensible pour une personne ne connaissant rien en installation de
+                        machine virtuelle, ou en commande Linux.
+                    </p>
+                </aside>
+                <h4 id="comp">Mes compétences acquise</h4>
+                <aside>
+                    <ul>
+                        <li>Administrer des systèmes informatiques communicants complexes </li>
+                    </ul>
+                </aside>
+                <h4 id="comp">Mes compétences technique</h4>
+                <aside>
+                    <ul>
+                        <li>Utiliser des commandes Linux dans un terminal </li>
+                        <li>Utiliser Mindminster</li>
+                    </ul>
+                </aside>
+            </section>
+            <section><button class="close-btn" onclick="this.closest('details').removeAttribute('open')">
+                    Fermer
+                </button></section>
+        </details>
+
+
+    </main>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (location.hash) {
+                const target = document.querySelector(location.hash);
+                if (target) {
+                    const details = target.closest("details");
+                    if (details) {
+                        details.open = true;
+                        // Facultatif : scroll vers l’élément après un petit délai
+                        setTimeout(() => {
+                            target.scrollIntoView({ behavior: "smooth" });
+                        }, 300);
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.location.hash) {
+      const target = document.querySelector(window.location.hash);
+      if (target) {
+        const details = target.closest('details');
+        if (details) {
+          details.open = true;
+        }
+        target.scrollIntoView(); // facultatif pour assurer le scroll
+      }
+    }
+
+    // Pour gérer les clics dynamiques sur les liens
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function (e) {
+        const hash = this.getAttribute('href');
+        const target = document.querySelector(hash);
+        if (target) {
+          const details = target.closest('details');
+          if (details) {
+            details.open = true;
+          }
+        }
+      });
+    });
+  });
+</script>
+
+
+
+</body>
+
+</html>
