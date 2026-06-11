@@ -1,0 +1,125 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 0;
+    margin-top: 4%;
+    font-weight: 1500;
+    font-size: 250%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+main p,a{
+    text-align: center;
+}
+
+main section{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:10% ;
+    flex-grow: 1;
+}
+
+
+
+/* ---------- FORMULAIRE ---------- */
+form {
+    width: 60%;
+    margin: 5% auto;
+    padding: 2% 4%;
+    border: 2px solid rgb(94, 93, 93);
+    border-radius: 20px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    color: rgb(94, 93, 93);
+}
+
+/* ---------- TITRE ---------- */
+main h2 {
+    margin-bottom: 2%;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ---------- LABELS ---------- */
+label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5%;
+    font-size: 90%;
+}
+
+/* ---------- INPUTS / TEXTAREA ---------- */
+input,
+textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(94, 93, 93);
+    border-radius: 8px;
+    font-size: 90%;
+    font-family: inherit;
+    background-color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Focus sobre (dans ton style) */
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: rgb(207, 46, 6);
+    background-color: rgb(245, 245, 245);
+}
+
+/* ---------- BOUTON ---------- */
+form input[type="submit"] {
+    width: 30%;
+    align-self: center;
+    margin-top: 3%;
+    padding: 10px 0;
+    font-size: 100%;
+    font-weight: 600;
+    color: rgb(94, 93, 93);
+    border: 2px solid rgb(94, 93, 93);
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover cohérent avec la nav */
+form input[type="submit"]:hover {
+    background-color: rgb(94, 93, 93);
+    color: white;
+}
+
+/* ---------- MESSAGE DE STATUT ---------- */
+#status {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 90%;
+}
+
+/* ---------- NAV ---------- */
+nav {
+    margin-bottom: 15px;
+}
